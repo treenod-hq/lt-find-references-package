@@ -2,7 +2,7 @@
   "name": "FindReferencesInProject",
   "displayName": "FindReferencesInProject",
   "description": "Find References In Project!",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "unity": "2018.3",
   "license": "treenod",
   "dependencies": {
