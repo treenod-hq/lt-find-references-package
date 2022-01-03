@@ -1,12 +1,12 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-
+#endif
 public class FindReferencesInProject
 {
     private const string MenuItemText = "Assets/Find References In Project";
-
+#if UNITY_EDITOR
     [MenuItem(MenuItemText, false, 25)]
     public static void Find()
     {
@@ -73,4 +73,5 @@ public class FindReferencesInProject
 
         return false;
     }
+#endif
 }
