@@ -2,7 +2,7 @@
   "name": "com.treenod.find-references-in-project",
   "displayName": "FindReferencesInProject",
   "description": "Find References In Project!",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "unity": "2018.3",
   "license": "treenod",
   "dependencies": {
